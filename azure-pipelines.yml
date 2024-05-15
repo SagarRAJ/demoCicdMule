@@ -17,7 +17,7 @@ trigger:
     - pom.xml
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'MulePool'
 variables:
 - group: Azure-Variable-Group
 - name: MAVEN_CACHE_FOLDER
