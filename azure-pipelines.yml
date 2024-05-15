@@ -16,8 +16,7 @@ trigger:
     - azure-pipelines-deploy-prod.yml
     
 
-pool:
-  vmImage: 'MulePool'
+pool: MulePool
 variables:
 - group: Azure-Variable-Group
 - name: MAVEN_CACHE_FOLDER
