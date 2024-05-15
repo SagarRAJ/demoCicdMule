@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: MulePool
+pool: MulePool
 
 steps:
 - task: Maven@3
