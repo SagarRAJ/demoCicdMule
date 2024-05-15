@@ -14,7 +14,7 @@ trigger:
     - azure-pipelines-TagnRelease.yml
     - azure-pipelines-deploy.yml
     - azure-pipelines-deploy-prod.yml
-    - pom.xml
+    
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -49,7 +49,7 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    jdkVersionOption: '17'
+    jdkVersionOption: '1.17'
     jdkArchitectureOption: 'x64'
     mavenAuthenticateFeed: true
     publishJUnitResults: false
